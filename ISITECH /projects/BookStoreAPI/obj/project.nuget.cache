@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DP+KfZUVCh7CzAuPfRij9TZxgUUKZCFRF/tBCtG9PGgHgqvqqzRP3F1NccK+Crngqfdw/Q+Y+C+y0SyzbpTR0w==",
+  "dgSpecHash": "pPK2uLZtLsmBjSuHvco7nT5E8217JA/Eq9wGrrnLR4SdrrLwuw+FNWTQHnrDobV5JmEnbKYdHrjEYCD0o7inng==",
   "success": true,
-  "projectFilePath": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH-2324-B3RPID-NET/projects/BookStoreAPI/BookStoreAPI.csproj",
+  "projectFilePath": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH /projects/BookStoreAPI/BookStoreAPI.csproj",
   "expectedPackageFiles": [
     "/Users/loicflorimont/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/loicflorimont/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

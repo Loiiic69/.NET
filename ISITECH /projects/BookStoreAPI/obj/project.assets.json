@@ -2949,11 +2949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH-2324-B3RPID-NET/projects/BookStoreAPI/BookStoreAPI.csproj",
+      "projectUniqueName": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH /projects/BookStoreAPI/BookStoreAPI.csproj",
       "projectName": "BookStoreAPI",
-      "projectPath": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH-2324-B3RPID-NET/projects/BookStoreAPI/BookStoreAPI.csproj",
+      "projectPath": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH /projects/BookStoreAPI/BookStoreAPI.csproj",
       "packagesPath": "/Users/loicflorimont/.nuget/packages/",
-      "outputPath": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH-2324-B3RPID-NET/projects/BookStoreAPI/obj/",
+      "outputPath": "/Users/loicflorimont/Documents/Developpement/dotnet/ISITECH /projects/BookStoreAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/loicflorimont/.nuget/NuGet/NuGet.Config"
