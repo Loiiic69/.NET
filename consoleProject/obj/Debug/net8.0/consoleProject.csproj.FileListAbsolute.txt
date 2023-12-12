@@ -1,0 +1,14 @@
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/bin/Debug/net8.0/consoleProject
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/bin/Debug/net8.0/consoleProject.deps.json
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/bin/Debug/net8.0/consoleProject.runtimeconfig.json
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/bin/Debug/net8.0/consoleProject.dll
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/bin/Debug/net8.0/consoleProject.pdb
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.AssemblyInfoInputs.cache
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.AssemblyInfo.cs
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.csproj.CoreCompileInputs.cache
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.dll
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/refint/consoleProject.dll
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.pdb
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/consoleProject.genruntimeconfig.cache
+/Users/loicflorimont/Documents/Developpement/dotnet/consoleProject/obj/Debug/net8.0/ref/consoleProject.dll
