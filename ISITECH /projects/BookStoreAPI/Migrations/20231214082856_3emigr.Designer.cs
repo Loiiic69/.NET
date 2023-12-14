@@ -3,6 +3,7 @@ using System;
 using BookStoreAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,14 +11,16 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStoreAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231214082856_3emigr")]
+    partial class _3emigr
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
 
-            modelBuilder.Entity("BookStoreAPI.Entities.Auteur", b =>
+            modelBuilder.Entity("Auteur", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -61,7 +64,7 @@ namespace BookStoreAPI.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("BookStoreAPI.Entities.Genres", b =>
+            modelBuilder.Entity("Genres", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -78,11 +81,11 @@ namespace BookStoreAPI.Migrations
 
             modelBuilder.Entity("BookStoreAPI.Entities.Book", b =>
                 {
-                    b.HasOne("BookStoreAPI.Entities.Auteur", "Author")
+                    b.HasOne("Auteur", "Author")
                         .WithMany()
                         .HasForeignKey("AuthorId");
 
-                    b.HasOne("BookStoreAPI.Entities.Genres", "Genres")
+                    b.HasOne("Genres", "Genres")
                         .WithMany()
                         .HasForeignKey("GenresId");
 
