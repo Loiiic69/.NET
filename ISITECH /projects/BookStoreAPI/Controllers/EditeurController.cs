@@ -35,6 +35,10 @@ public class EditeurController : ControllerBase
     [HttpPost]
     public ActionResult<Editeur> Post([FromBody] Editeur nouveauEditeur)
     {
+             if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
         nouveauEditeur.Id = listeEditeurs.Count + 1;
         listeEditeurs.Add(nouveauEditeur);
 

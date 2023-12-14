@@ -35,6 +35,10 @@ public class AuteurController : ControllerBase
     [HttpPost]
     public ActionResult<Auteur> Post([FromBody] Auteur nouveauAuteur)
     {
+             if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
         nouveauAuteur.Id = listeAuteurs.Count + 1;
         listeAuteurs.Add(nouveauAuteur);
 

@@ -44,6 +44,10 @@ namespace BookStoreAPI.Controllers
         [ProducesResponseType(400)]
         public async Task<ActionResult<Book>> PostBook([FromBody] Book book)
         {
+                 if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             if (book == null)
             {
                 return BadRequest();

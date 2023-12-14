@@ -35,6 +35,10 @@ public class GenresController : ControllerBase
     [HttpPost]
     public ActionResult<Genres> Post([FromBody] Genres nouveauGenre)
     {
+             if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
         nouveauGenre.Id = listeGenres.Count + 1;
         listeGenres.Add(nouveauGenre);
 

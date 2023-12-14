@@ -34,6 +34,10 @@ public class ClientController : ControllerBase
     [HttpPost]
     public ActionResult<Client> Post([FromBody] Client nouveauClient)
     {
+             if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
         nouveauClient.Id = listeClients.Count + 1;
         listeClients.Add(nouveauClient);
 
